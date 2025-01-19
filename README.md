@@ -28,44 +28,10 @@ To run this project, you need the following dependencies:
 
 You can install the required packages using the following command:
 
-    ```bash
+   ```bash
     pip install streamlit opencv-python ultralytics
 
-## Installation:
-Clone the repository:
 
-    ```bash
-    git clone https://github.com/alirzx/Real-time-Instance-Segmentation-Using-YOLOv8.git
-    cd Real-time-Instance-Segmentation-Using-YOLOv8
-
-## install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-
-Download the YOLOv8 segmentation models (if not already included):
-The application will automatically download the selected model when you run it.
-
-## Usage
-Run the Streamlit app:
-
-    ```bash
-    streamlit run app.py
-
-Use the sidebar to:
-Select a task: Real-Time Webcam or Upload Video/Image.
-Choose a YOLOv8 model (default: yolov8m-seg.pt).
-Adjust the confidence threshold.
-
-## For Real-Time Webcam:
-
-Click Start Webcam to begin segmentation.
-Click Stop Webcam to stop.
-
-## For Upload Video/Image:
-Upload an image or video file.
-The app will process the file and display the segmented output.
-Download the segmented image or video using the provided button.
 
 
 ## Customization
