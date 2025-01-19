@@ -30,10 +30,29 @@ You can install the required packages using the following command:
 
    ```bash
     pip install streamlit opencv-python ultralytics
+```
 
+## Installation
+Clone the Repository:
 
+   ```bash
+      git clone https://github.com/alirzx/Real-time-Instance-Segmentation-Using-YOLOv8.git
+      cd Real-time-Instance-Segmentation-Using-YOLOv8
+```
+## Install the Required Dependencies:
 
+   ```bash
+      pip install -r requirements.txt
+      Download the YOLOv8 Segmentation Models (if not already included):
+```
+The application will automatically download the selected model when you run it.
 
+## Usage
+Run the Streamlit app:
+
+```bash
+streamlit run app.py
+```
 ## Customization
 Model Selection: You can add or remove YOLOv8 models by modifying the model_name dropdown in the app.
 Confidence Threshold: Adjust the confidence threshold to control the sensitivity of object detection.
