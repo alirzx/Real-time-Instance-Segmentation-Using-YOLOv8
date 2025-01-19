@@ -2,6 +2,7 @@
 
 This project demonstrates **real-time instance segmentation** using the YOLOv8 model and a user-friendly interface built with **Streamlit**. It allows users to perform instance segmentation on live webcam feeds, uploaded images, or videos. The application provides options to select different YOLOv8 models, adjust confidence thresholds, and view object counts in real-time.
 
+![Real-Time Webcam Segmentation](instance segment web app image.png)
 ---
 
 ## Features
