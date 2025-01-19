@@ -14,7 +14,7 @@ This project demonstrates **real-time instance segmentation** using the YOLOv8 m
 - **Object Counts**: Display real-time object counts for detected classes.
 - **Download Results**: Download segmented images or videos.
 
-![Real-Time Webcam Segmentation](instance%20segment%20web%20app%20image 2.png)
+![Real-Time Webcam Segmentation](instance%20segment%20web%20app%20image2.png)
 ---
 
 ## Requirements
