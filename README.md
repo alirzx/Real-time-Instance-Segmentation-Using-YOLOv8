@@ -1,4 +1,4 @@
-# Real-Time Instance Segmentation with YOLOv8 and Streamlit
+# Real-Time Instance Segmentation with YOLOv8 series and Streamlit
 
 This project demonstrates **real-time instance segmentation** using the YOLOv8 model and a user-friendly interface built with **Streamlit**. It allows users to perform instance segmentation on live webcam feeds, uploaded images, or videos. The application provides options to select different YOLOv8 models, adjust confidence thresholds, and view object counts in real-time.
 
@@ -28,10 +28,49 @@ To run this project, you need the following dependencies:
 
 You can install the required packages using the following command:
 
-```bash
-pip install streamlit opencv-python ultralytics
+    ```bash
+    pip install streamlit opencv-python ultralytics
 
-Installation:
+## Installation:
 Clone the repository:
-git clone https://github.com/alirzx/Real-time-Instance-Segmentation-Using-YOLOv8.git
-cd Real-time-Instance-Segmentation-Using-YOLOv8
+
+    ```bash
+    git clone https://github.com/alirzx/Real-time-Instance-Segmentation-Using-YOLOv8.git
+    cd Real-time-Instance-Segmentation-Using-YOLOv8
+
+## install the required dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+
+Download the YOLOv8 segmentation models (if not already included):
+The application will automatically download the selected model when you run it.
+
+## Usage
+Run the Streamlit app:
+
+    ```bash
+    streamlit run app.py
+
+Use the sidebar to:
+Select a task: Real-Time Webcam or Upload Video/Image.
+Choose a YOLOv8 model (default: yolov8m-seg.pt).
+Adjust the confidence threshold.
+
+## For Real-Time Webcam:
+
+Click Start Webcam to begin segmentation.
+Click Stop Webcam to stop.
+
+## For Upload Video/Image:
+Upload an image or video file.
+The app will process the file and display the segmented output.
+Download the segmented image or video using the provided button.
+
+
+## Customization
+Model Selection: You can add or remove YOLOv8 models by modifying the model_name dropdown in the app.
+Confidence Threshold: Adjust the confidence threshold to control the sensitivity of object detection.
+Object Counts: Modify the segment_frame function to customize how object counts are displayed.
+
+
