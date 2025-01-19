@@ -33,19 +33,19 @@ Time (for FPS calculation)
 
 You can install the required packages using the following command:
 
-bash
+```bash
 Copy
 pip install streamlit opencv-python ultralytics
 Installation
 Clone the repository:
 
-bash
+```bash
 Copy
 git clone https://github.com/alirzx/Real-time-Instance-Segmentation-Using-YOLOv8.git
 cd Real-time-Instance-Segmentation-Using-YOLOv8
 Install the required dependencies:
 
-bash
+```bash
 Copy
 pip install -r requirements.txt
 Download the YOLOv8 segmentation models (if not already included):
@@ -55,7 +55,7 @@ The application will automatically download the selected model when you run it.
 Usage
 Run the Streamlit app:
 
-bash
+```bash
 Copy
 streamlit run app.py
 Open your browser and navigate to the provided URL (usually http://localhost:8501).
