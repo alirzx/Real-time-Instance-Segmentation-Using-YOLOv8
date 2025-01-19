@@ -32,6 +32,7 @@ You can install the required packages using the following command:
     pip install streamlit opencv-python ultralytics
 ```
 
+---
 ## Installation
 Clone the Repository:
 
@@ -43,8 +44,8 @@ Clone the Repository:
 
    ```bash
       pip install -r requirements.txt
-      Download the YOLOv8 Segmentation Models (if not already included):
 ```
+Download the YOLOv8 Segmentation Models (if not already included):
 The application will automatically download the selected model when you run it.
 
 ## Usage
